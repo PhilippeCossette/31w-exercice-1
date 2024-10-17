@@ -8,16 +8,16 @@
   color: white;
   padding: 10px;
 
+  & ul { 
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+
   & a {
     text-decoration: none;
     display: inline-block;
     color: white;
-  }
-
-  & ul {
-    list-style: none;
-    display: flex;
-    gap: 20px;
   }
 }
 

@@ -1,1 +1,9 @@
-
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+.menu-item {
+  text-decoration: none;
+  display: inline-block;
+}
