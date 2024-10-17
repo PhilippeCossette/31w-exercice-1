@@ -20,13 +20,6 @@
         <section class="global">
             <h1><?php bloginfo('name') ?></h1>
             <h2><?php bloginfo('description') ?></h1>
-                <!-- nav>
-                    <ul>
-                        <li><a href="#">Accueil</a></li>
-                        <li><a href="#">À propos</a></li>
-                        <li><a href="#">Contact</a></li>
-                    </ul>
-                </nav -->
                 <?php wp_nav_menu(
                     array(
                         "menu" => "principal",
